@@ -1,31 +1,28 @@
-# Adonis API application
+## 说明
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+> 开发环境 ： Win10     node.js 10.16.0     Chrome
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+> 部署环境 ：aliyun服务器
 
-## Setup
+> 博客访问地址：[BOL4的博客](http://bol4.top)
+>
+> 参考官方文档：[AdonisJS官方文档](http://<https://adonisjs.com.cn/>)
 
-Use the adonis command to install the blueprint
 
-```bash
-adonis new api-server --blueprint wxs77577/adonis-mongo-app
 
-# or use `--cnpm`
-adonis new api-server --blueprint wxs77577/adonis-mongo-app --cnpm
+## 技术栈
+
+AdonisJS + node.js + bootstrap+ mongodb
+
+## 项目运行
+
+```
+运行前你需要安装好：
+node.js、mongodb、anonisjs(npm i -g @adonisjs/cli)
+
+项目运行：
+clone项目到本地
+adonis serve --dev
+访问：http://127.0.0.1:3333
 ```
 
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
