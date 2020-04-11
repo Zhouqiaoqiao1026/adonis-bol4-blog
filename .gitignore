@@ -1,0 +1,14 @@
+# Node modules
+
+
+# Adonis directory for storing tmp files
+tmp
+
+# Environment variables, never commit this file
+
+# The development sqlite file
+database/development.sqlite
+
+yarn-error.log
+
+rest-admin

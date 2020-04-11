@@ -1,0 +1,26 @@
+@uri= http://127.0.0.1:3333/admin/api/
+
+###查询所有
+GET {{uri}}posts  
+
+###查询某个id的
+GET {{uri}}posts/5e141c44cad28437dc1ea205
+
+###新增
+POST {{uri}}posts
+Content-Type: application/json
+
+{
+    "title":"我的博客文章3"
+}
+
+###更新
+PUT {{uri}}posts/5e141c44cad28437dc1ea205
+Content-Type: application/json
+
+{
+    "title":"我的博客文章-第三篇"
+}
+
+###删除
+DELETE {{uri}}posts/5e141c44cad28437dc1ea205
